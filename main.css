@@ -1,0 +1,27 @@
+.add-li-button {
+    padding: 10px;
+    background-color: green;
+}
+
+.add-field {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-nav {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.link-nav {
+    text-decoration: none;
+
+}
