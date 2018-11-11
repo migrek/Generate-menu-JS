@@ -16,12 +16,27 @@
 
 .item-nav {
     list-style-type: none;
+    display: flex;
+    position: relative;
     margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
+    padding: 0;
 }
+
+.item-nav-del {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    cursor: pointer;
+}
+
 
 .link-nav {
     text-decoration: none;
-
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
 }
